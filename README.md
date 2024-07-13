@@ -18,7 +18,8 @@
 
 ### Installation Guide
 1. **Node.js:** Ensure you have a compatible version of Node.js installed: https://nodejs.org/en
-2. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.
+2. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.            
+   npm install -g --unsafe-perm node-red
 3. **Required Nodes:** (If applicable, list specific Node-RED nodes needed)
    - Install using the Node-RED package manager or manually.
 4. **MYSQL Database:** Ensure you have mysql database installed in your computer system
