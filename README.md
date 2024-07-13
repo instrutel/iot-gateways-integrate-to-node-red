@@ -3,31 +3,39 @@
 ### This project provides a remote monitoring system for multiple devices like 
 ### 1) Analog Input  2) Analog Output 3) Digital Input  4) Digital Output With the help of Iot Gateway 
 ### Table Of Content 
-*<a href='Description'> Introduction</a>
+* Introduction
 * Features
 * Installation
 * Usage
 * Contributing
 * License
+  <br />
 ### Description 
-* Monitor analog and digital devices data and control remotely.
-* Use MQTT for efficient communication between devices and the monitoring system with the help of unique topic name.
+* Monitor analog and digital devices data and control them remotely.
+* Use Iot Gateway device for efficient communication between devices and the monitoring system with the help of unique topic name.
 * Use of Node-RED's visual flow editor for easy configuration and customization  <br /><br />
 ![image](https://github.com/user-attachments/assets/6d78505d-cb15-46a3-bb73-145a6d86cb82)
 
-### Installation 
-1. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.
-2. **Node.js:** Ensure you have a compatible version of Node.js installed: https://nodejs.org/en
+### Installation Guide
+1. **Node.js:** Ensure you have a compatible version of Node.js installed: https://nodejs.org/en
+2. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.
 3. **Required Nodes:** (If applicable, list specific Node-RED nodes needed)
    - Install using the Node-RED package manager or manually.
-4. **MYSQL DB:** Ensure you have mysql database installed in your computer system
-
-
+4. **MYSQL Database:** Ensure you have mysql database installed in your computer system
+5. **clone this repository**
+git clone https://github.com/dceejay/electron-node-red.git
+# Go into the repository
+cd electron-node-red
+# Install the yarn install tool globally
+sudo npm i -g yarn
+# Install project dependencies
+yarn
 ### Usage 
 Node-red :
 Node-RED uses graphical flows and nodes, which have individual components in a flow to essentially create a program. 
 Its a open-source tool
-![image](https://github.com/user-attachments/assets/3c170ddd-d384-46e3-9748-6c3060c9bf34)
+![image](https://github.com/user-attachments/assets/a647746e-fdd2-47c8-a962-334dc6ede887)
+
 
 for accessing a data from multiple devices using iot gateway 
 Iot Gateway is connected to the multiple devices using Ethernet or RS485 connection.
