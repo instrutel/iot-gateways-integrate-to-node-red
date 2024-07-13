@@ -49,6 +49,7 @@
    4) Search module name in the search module barwhich you want 
       
 ### Hardware Configuration
+![Screenshot 2024-07-13 144201](https://github.com/user-attachments/assets/6a6bcc49-e67f-4f51-8342-af6b843cc9f9)
 
 ### Authors 
 
