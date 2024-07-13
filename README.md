@@ -39,8 +39,9 @@
   
           node-red
 ![image](https://github.com/user-attachments/assets/8963f29f-c56d-41e2-9008-5c756b5b7c4b)
- * find---> 13 Jul 10:50:18 - [info] Server now running at http://127.0.0.1:1880/ this line and copy that link and paste in the browser
-
+ * find---> 13 Jul 10:50:18 - [info] Server now running at http://127.0.0.1:1880/ this line and copy that link and paste in the browser you will see the flow structure which as shown in following image
+   ![image](https://github.com/user-attachments/assets/2a48d707-086e-4f2e-a7f2-398ef10d474e)
+ * for more information about node red flows follow the https://nodered.org/docs/
 ### Usage 
 Node-red :
 Node-RED uses graphical flows and nodes, which have individual components in a flow to essentially create a program. 
