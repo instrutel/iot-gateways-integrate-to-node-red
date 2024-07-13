@@ -23,7 +23,7 @@
    - Install using the Node-RED package manager or manually.
 4. **MYSQL Database:** Ensure you have mysql database installed in your computer system
 5. **clone this repository**
-git clone https://github.com/dceejay/electron-node-red.git
+git clone https://github.com/instrutel/iot-gateways-integrate-to-node-red/tree/main
 # Go into the repository
 cd electron-node-red
 # Install the yarn install tool globally
