@@ -42,26 +42,23 @@
  * find---> 13 Jul 10:50:18 - [info] Server now running at http://127.0.0.1:1880/ this line and copy that link and paste in the browser you will see the flow structure which as shown in following image
    ![image](https://github.com/user-attachments/assets/2a48d707-086e-4f2e-a7f2-398ef10d474e)
  * for more information about node red flows follow the https://nodered.org/docs/
-### Usage 
-Node-red :
-Node-RED uses graphical flows and nodes, which have individual components in a flow to essentially create a program. 
-Its a open-source tool
-
-
-for accessing a data from multiple devices using iot gateway 
-Iot Gateway is connected to the multiple devices using Ethernet or RS485 connection.
-Iot Gateway collects data from the devices and send that data to the iot hub through a topic name.
-We can access this data by subscribing that unique topic name. 
-through node js we can operate that devices using node red dashboard 
-Node red : Low-code programming interface for event driven application
+ * If it shows any node modules is require to install then install nodes follow the following steps
+   1) Click on three lines shown on top right corner
+   2) Click on Manage Pallate
+   3) Click on Install
+   4) Search module name in the search module barwhich you want 
+      
 ### Hardware Configuration
 
 ### Authors 
 
-### Screenshot
-Energy Meter Dashboard
-![image](https://github.com/user-attachments/assets/2bd9b9d4-62c9-48f5-b6b8-81bab8b8bd23)
-Analog Input Dashboard
-![image](https://github.com/user-attachments/assets/8e6c49f9-c9e1-417f-b899-99cf6b4350e3)
-Digital Input Dashboard
-![image](https://github.com/user-attachments/assets/cb6b118b-3b6f-4d7c-9608-b713cd7df094)
+### Screenshots
+Energy Meter Dashboard <br />
+![image](https://github.com/user-attachments/assets/2bd9b9d4-62c9-48f5-b6b8-81bab8b8bd23) <br />
+Analog Input Dashboard <br />
+![image](https://github.com/user-attachments/assets/8e6c49f9-c9e1-417f-b899-99cf6b4350e3) <br />
+Digital Input Dashboard <br />
+![image](https://github.com/user-attachments/assets/cb6b118b-3b6f-4d7c-9608-b713cd7df094) <br />
+Digital Output Dahsoboard <br />
+![image](https://github.com/user-attachments/assets/562cc4d9-ec7f-40ad-ac5c-a0158714d09f) <br />
+
