@@ -1,0 +1,1316 @@
+{
+    "node-red": {
+        "name": "node-red",
+        "version": "3.1.9",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "junction": {
+                "name": "junction",
+                "types": [
+                    "junction"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\05-junction.js"
+            },
+            "inject": {
+                "name": "inject",
+                "types": [
+                    "inject"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\20-inject.js"
+            },
+            "debug": {
+                "name": "debug",
+                "types": [
+                    "debug"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\21-debug.js"
+            },
+            "complete": {
+                "name": "complete",
+                "types": [
+                    "complete"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\24-complete.js"
+            },
+            "catch": {
+                "name": "catch",
+                "types": [
+                    "catch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\25-catch.js"
+            },
+            "status": {
+                "name": "status",
+                "types": [
+                    "status"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\25-status.js"
+            },
+            "link": {
+                "name": "link",
+                "types": [
+                    "link in",
+                    "link out",
+                    "link call"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\60-link.js"
+            },
+            "comment": {
+                "name": "comment",
+                "types": [
+                    "comment"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\90-comment.js"
+            },
+            "global-config": {
+                "name": "global-config",
+                "types": [
+                    "global-config"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\91-global-config.js"
+            },
+            "unknown": {
+                "name": "unknown",
+                "types": [
+                    "unknown"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\common\\98-unknown.js"
+            },
+            "function": {
+                "name": "function",
+                "types": [
+                    "function"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\10-function.js"
+            },
+            "switch": {
+                "name": "switch",
+                "types": [
+                    "switch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\10-switch.js"
+            },
+            "change": {
+                "name": "change",
+                "types": [
+                    "change"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\15-change.js"
+            },
+            "range": {
+                "name": "range",
+                "types": [
+                    "range"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\16-range.js"
+            },
+            "template": {
+                "name": "template",
+                "types": [
+                    "template"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\80-template.js"
+            },
+            "delay": {
+                "name": "delay",
+                "types": [
+                    "delay"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\89-delay.js"
+            },
+            "trigger": {
+                "name": "trigger",
+                "types": [
+                    "trigger"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\89-trigger.js"
+            },
+            "exec": {
+                "name": "exec",
+                "types": [
+                    "exec"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\90-exec.js"
+            },
+            "rbe": {
+                "name": "rbe",
+                "types": [
+                    "rbe"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\function\\rbe.js"
+            },
+            "tls": {
+                "name": "tls",
+                "types": [
+                    "tls-config"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\05-tls.js"
+            },
+            "httpproxy": {
+                "name": "httpproxy",
+                "types": [
+                    "http proxy"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\06-httpproxy.js"
+            },
+            "mqtt": {
+                "name": "mqtt",
+                "types": [
+                    "mqtt in",
+                    "mqtt out",
+                    "mqtt-broker"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\10-mqtt.js"
+            },
+            "httpin": {
+                "name": "httpin",
+                "types": [
+                    "http in",
+                    "http response"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\21-httpin.js"
+            },
+            "httprequest": {
+                "name": "httprequest",
+                "types": [
+                    "http request"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\21-httprequest.js"
+            },
+            "websocket": {
+                "name": "websocket",
+                "types": [
+                    "websocket in",
+                    "websocket out",
+                    "websocket-listener",
+                    "websocket-client"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\22-websocket.js"
+            },
+            "tcpin": {
+                "name": "tcpin",
+                "types": [
+                    "tcp in",
+                    "tcp out",
+                    "tcp request"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\31-tcpin.js"
+            },
+            "udp": {
+                "name": "udp",
+                "types": [
+                    "udp in",
+                    "udp out"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\network\\32-udp.js"
+            },
+            "CSV": {
+                "name": "CSV",
+                "types": [
+                    "csv"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\parsers\\70-CSV.js"
+            },
+            "HTML": {
+                "name": "HTML",
+                "types": [
+                    "html"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\parsers\\70-HTML.js"
+            },
+            "JSON": {
+                "name": "JSON",
+                "types": [
+                    "json"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\parsers\\70-JSON.js"
+            },
+            "XML": {
+                "name": "XML",
+                "types": [
+                    "xml"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\parsers\\70-XML.js"
+            },
+            "YAML": {
+                "name": "YAML",
+                "types": [
+                    "yaml"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\parsers\\70-YAML.js"
+            },
+            "split": {
+                "name": "split",
+                "types": [
+                    "split",
+                    "join"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\sequence\\17-split.js"
+            },
+            "sort": {
+                "name": "sort",
+                "types": [
+                    "sort"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\sequence\\18-sort.js"
+            },
+            "batch": {
+                "name": "batch",
+                "types": [
+                    "batch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\sequence\\19-batch.js"
+            },
+            "file": {
+                "name": "file",
+                "types": [
+                    "file",
+                    "file in"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\storage\\10-file.js"
+            },
+            "watch": {
+                "name": "watch",
+                "types": [
+                    "watch"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red",
+                "file": "C:\\Users\\Vaibhav\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
+            }
+        }
+    },
+    "@icke1983/node-red-contrib-ui-popup": {
+        "name": "@icke1983/node-red-contrib-ui-popup",
+        "version": "0.9.9",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "timepicker": {
+                "name": "timepicker",
+                "types": [
+                    "ui_popup-timepicker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_timepicker.js"
+            },
+            "colorpicker": {
+                "name": "colorpicker",
+                "types": [
+                    "ui_popup-colorpicker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_colorpicker.js"
+            },
+            "colortemp": {
+                "name": "colortemp",
+                "types": [
+                    "ui_popup-colortemp"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_colortemp.js"
+            },
+            "simpleslider": {
+                "name": "simpleslider",
+                "types": [
+                    "ui_popup-simpleslider"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_simpleslider.js"
+            },
+            "dropdown": {
+                "name": "dropdown",
+                "types": [
+                    "ui_popup-dropdown"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_dropdown.js"
+            },
+            "iframe": {
+                "name": "iframe",
+                "types": [
+                    "ui_popup-iframe"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@icke1983/node-red-contrib-ui-popup",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@icke1983\\node-red-contrib-ui-popup\\ui_popup_iframe.js"
+            }
+        }
+    },
+    "@martip/node-red-xlsx": {
+        "name": "@martip/node-red-xlsx",
+        "version": "1.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "xlsx": {
+                "name": "xlsx",
+                "types": [
+                    "xlsx"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@martip/node-red-xlsx",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@martip\\node-red-xlsx\\xlsx\\xlsx.js"
+            }
+        }
+    },
+    "@pgspider/node-red-db2chart": {
+        "name": "@pgspider/node-red-db2chart",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "db2chart": {
+                "name": "db2chart",
+                "types": [
+                    "db2chart"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@pgspider/node-red-db2chart",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\@pgspider\\node-red-db2chart\\db2chart.js"
+            }
+        }
+    },
+    "node-red-contrib-aedes": {
+        "name": "node-red-contrib-aedes",
+        "version": "0.6.0",
+        "local": true,
+        "user": false,
+        "nodes": {
+            "aedes-mqtt-broker": {
+                "name": "aedes-mqtt-broker",
+                "types": [
+                    "aedes broker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-aedes",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-aedes\\aedes.js"
+            }
+        }
+    },
+    "node-red-contrib-bool-gate": {
+        "name": "node-red-contrib-bool-gate",
+        "version": "1.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "and": {
+                "name": "and",
+                "types": [
+                    "and-gate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-bool-gate",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-bool-gate\\nodes\\and.js"
+            },
+            "or": {
+                "name": "or",
+                "types": [
+                    "or-gate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-bool-gate",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-bool-gate\\nodes\\or.js"
+            }
+        }
+    },
+    "node-red-contrib-data-table-viewer": {
+        "name": "node-red-contrib-data-table-viewer",
+        "version": "0.0.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "table-viewer": {
+                "name": "table-viewer",
+                "types": [
+                    "table-viewer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-data-table-viewer",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-data-table-viewer\\src\\table_viewer.js"
+            }
+        }
+    },
+    "node-red-contrib-excel": {
+        "name": "node-red-contrib-excel",
+        "version": "0.0.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "xlsx": {
+                "name": "xlsx",
+                "types": [
+                    "excel"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-excel",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-excel\\excel\\excel.js"
+            }
+        }
+    },
+    "node-red-contrib-filemaker": {
+        "name": "node-red-contrib-filemaker",
+        "version": "2.3.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "dapi-client": {
+                "name": "dapi-client",
+                "types": [
+                    "dapi-client"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\client\\client.js"
+            },
+            "dapi-product-info": {
+                "name": "dapi-product-info",
+                "types": [
+                    "dapi-product-info"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\productInfo.js"
+            },
+            "dapi-databases": {
+                "name": "dapi-databases",
+                "types": [
+                    "dapi-databases"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\databases.js"
+            },
+            "dapi-duplicate": {
+                "name": "dapi-duplicate",
+                "types": [
+                    "dapi-duplicate"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\duplicate.js"
+            },
+            "dapi-layouts": {
+                "name": "dapi-layouts",
+                "types": [
+                    "dapi-layouts"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\layouts.js"
+            },
+            "dapi-layout": {
+                "name": "dapi-layout",
+                "types": [
+                    "dapi-layout"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\layout.js"
+            },
+            "dapi-scripts": {
+                "name": "dapi-scripts",
+                "types": [
+                    "dapi-scripts"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\scripts.js"
+            },
+            "dapi-login": {
+                "name": "dapi-login",
+                "types": [
+                    "dapi-login"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\login.js"
+            },
+            "dapi-logout": {
+                "name": "dapi-logout",
+                "types": [
+                    "dapi-logout"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\logout.js"
+            },
+            "dapi-create-record": {
+                "name": "dapi-create-record",
+                "types": [
+                    "dapi-create-record"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\create.js"
+            },
+            "dapi-edit-record": {
+                "name": "dapi-edit-record",
+                "types": [
+                    "dapi-edit-record"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\edit.js"
+            },
+            "dapi-delete-record": {
+                "name": "dapi-delete-record",
+                "types": [
+                    "dapi-delete-record"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\delete.js"
+            },
+            "dapi-get-record": {
+                "name": "dapi-get-record",
+                "types": [
+                    "dapi-get-record"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\get.js"
+            },
+            "dapi-status": {
+                "name": "dapi-status",
+                "types": [
+                    "dapi-status"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\status.js"
+            },
+            "dapi-list-records": {
+                "name": "dapi-list-records",
+                "types": [
+                    "dapi-list-records"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\list.js"
+            },
+            "dapi-perform-find": {
+                "name": "dapi-perform-find",
+                "types": [
+                    "dapi-perform-find"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\find.js"
+            },
+            "dapi-trigger-script": {
+                "name": "dapi-trigger-script",
+                "types": [
+                    "dapi-trigger-script"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\script.js"
+            },
+            "dapi-upload-file": {
+                "name": "dapi-upload-file",
+                "types": [
+                    "dapi-upload-file"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\upload.js"
+            },
+            "dapi-set-globals": {
+                "name": "dapi-set-globals",
+                "types": [
+                    "dapi-set-globals"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\globals.js"
+            },
+            "dapi-field-data": {
+                "name": "dapi-field-data",
+                "types": [
+                    "dapi-field-data"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\fieldData.js"
+            },
+            "dapi-record-id": {
+                "name": "dapi-record-id",
+                "types": [
+                    "dapi-record-id"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\recordId.js"
+            },
+            "dapi-transform": {
+                "name": "dapi-transform",
+                "types": [
+                    "dapi-transform"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\transform.js"
+            },
+            "dapi-container-data": {
+                "name": "dapi-container-data",
+                "types": [
+                    "dapi-container-data"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-filemaker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-filemaker\\src\\nodes\\containerData.js"
+            }
+        }
+    },
+    "node-red-contrib-fs": {
+        "name": "node-red-contrib-fs",
+        "version": "1.4.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "File Lister": {
+                "name": "File Lister",
+                "types": [
+                    "fs-file-lister"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-fs",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-fs\\fs\\fs-file-lister.js"
+            }
+        }
+    },
+    "node-red-contrib-ftp-download": {
+        "name": "node-red-contrib-ftp-download",
+        "version": "1.0.4",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ftp-download": {
+                "name": "ftp-download",
+                "types": [
+                    "ftp-download-server",
+                    "ftp-download"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ftp-download",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-ftp-download\\ftp-download.js"
+            }
+        }
+    },
+    "node-red-contrib-mqtt-broker": {
+        "name": "node-red-contrib-mqtt-broker",
+        "version": "0.2.9",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mosca-mqtt-broker": {
+                "name": "mosca-mqtt-broker",
+                "types": [
+                    "mosca in"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-mqtt-broker",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-mqtt-broker\\mosca.js"
+            }
+        }
+    },
+    "node-red-contrib-spreadsheet-in": {
+        "name": "node-red-contrib-spreadsheet-in",
+        "version": "0.7.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "book": {
+                "name": "book",
+                "types": [
+                    "book"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-spreadsheet-in",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-spreadsheet-in\\book.js"
+            },
+            "sheet": {
+                "name": "sheet",
+                "types": [
+                    "sheet"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-spreadsheet-in",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-spreadsheet-in\\sheet.js"
+            },
+            "cell": {
+                "name": "cell",
+                "types": [
+                    "cell"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-spreadsheet-in",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-spreadsheet-in\\cell.js"
+            },
+            "sheet-to-json": {
+                "name": "sheet-to-json",
+                "types": [
+                    "sheet-to-json"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-spreadsheet-in",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-spreadsheet-in\\sheet-to-json.js"
+            }
+        }
+    },
+    "node-red-contrib-toggle": {
+        "name": "node-red-contrib-toggle",
+        "version": "0.1.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "toggle": {
+                "name": "toggle",
+                "types": [
+                    "toggle"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-toggle",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-toggle\\toggle.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-media": {
+        "name": "node-red-contrib-ui-media",
+        "version": "1.2.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_media": {
+                "name": "ui_media",
+                "types": [
+                    "ui_media"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-media",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-contrib-ui-media\\ui_media.js"
+            }
+        }
+    },
+    "node-red-dashboard": {
+        "name": "node-red-dashboard",
+        "version": "3.6.5",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_base": {
+                "name": "ui_base",
+                "types": [
+                    "ui_base"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_base.js"
+            },
+            "ui_button": {
+                "name": "ui_button",
+                "types": [
+                    "ui_button"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_button.js"
+            },
+            "ui_dropdown": {
+                "name": "ui_dropdown",
+                "types": [
+                    "ui_dropdown"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_dropdown.js"
+            },
+            "ui_switch": {
+                "name": "ui_switch",
+                "types": [
+                    "ui_switch"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_switch.js"
+            },
+            "ui_slider": {
+                "name": "ui_slider",
+                "types": [
+                    "ui_slider"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_slider.js"
+            },
+            "ui_numeric": {
+                "name": "ui_numeric",
+                "types": [
+                    "ui_numeric"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_numeric.js"
+            },
+            "ui_text_input": {
+                "name": "ui_text_input",
+                "types": [
+                    "ui_text_input"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_text_input.js"
+            },
+            "ui_date_picker": {
+                "name": "ui_date_picker",
+                "types": [
+                    "ui_date_picker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_date_picker.js"
+            },
+            "ui_colour_picker": {
+                "name": "ui_colour_picker",
+                "types": [
+                    "ui_colour_picker"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_colour_picker.js"
+            },
+            "ui_form": {
+                "name": "ui_form",
+                "types": [
+                    "ui_form"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_form.js"
+            },
+            "ui_text": {
+                "name": "ui_text",
+                "types": [
+                    "ui_text"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_text.js"
+            },
+            "ui_gauge": {
+                "name": "ui_gauge",
+                "types": [
+                    "ui_gauge"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_gauge.js"
+            },
+            "ui_chart": {
+                "name": "ui_chart",
+                "types": [
+                    "ui_chart"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_chart.js"
+            },
+            "ui_audio": {
+                "name": "ui_audio",
+                "types": [
+                    "ui_audio"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_audio.js"
+            },
+            "ui_toast": {
+                "name": "ui_toast",
+                "types": [
+                    "ui_toast"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_toast.js"
+            },
+            "ui_ui_control": {
+                "name": "ui_ui_control",
+                "types": [
+                    "ui_ui_control"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_ui_control.js"
+            },
+            "ui_template": {
+                "name": "ui_template",
+                "types": [
+                    "ui_template"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_template.js"
+            },
+            "ui_link": {
+                "name": "ui_link",
+                "types": [
+                    "ui_link"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_link.js"
+            },
+            "ui_tab": {
+                "name": "ui_tab",
+                "types": [
+                    "ui_tab"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_tab.js"
+            },
+            "ui_group": {
+                "name": "ui_group",
+                "types": [
+                    "ui_group"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_group.js"
+            },
+            "ui_spacer": {
+                "name": "ui_spacer",
+                "types": [
+                    "ui_spacer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-dashboard",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
+            }
+        }
+    },
+    "node-red-node-mysql-test": {
+        "name": "node-red-node-mysql-test",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mysql": {
+                "name": "mysql",
+                "types": [
+                    "MySQLdatabase",
+                    "mysql"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-mysql-test",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-node-mysql-test\\68-mysql.js"
+            }
+        }
+    },
+    "node-red-node-ui-table": {
+        "name": "node-red-node-ui-table",
+        "version": "0.4.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_table": {
+                "name": "ui_table",
+                "types": [
+                    "ui_table"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-ui-table",
+                "file": "D:\\VaibhavWorkSpace\\Repositories\\Node_Red_Projects\\projects\\ums\\node_modules\\node-red-node-ui-table\\node.js"
+            }
+        }
+    }
+}

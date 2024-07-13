@@ -1,0 +1,30 @@
+{
+    "name": "ums",
+    "description": "utility monitoring systems",
+    "version": "0.0.1",
+    "dependencies": {
+        "@icke1983/node-red-contrib-ui-popup": "~0.9.9",
+        "@martip/node-red-xlsx": "~1.0.2",
+        "@pgspider/node-red-db2chart": "~1.0.0",
+        "node-red-contrib-bool-gate": "~1.0.2",
+        "node-red-contrib-data-table-viewer": "0.0.7",
+        "node-red-contrib-excel": "0.0.3",
+        "node-red-contrib-filemaker": "~2.3.1",
+        "node-red-contrib-fs": "~1.4.1",
+        "node-red-contrib-ftp-download": "~1.0.4",
+        "node-red-contrib-mqtt-broker": "~0.2.9",
+        "node-red-contrib-spreadsheet-in": "~0.7.1",
+        "node-red-contrib-toggle": "~0.1.1",
+        "node-red-contrib-ui-media": "~1.2.0",
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-mysql-test": "~1.0.0",
+        "node-red-node-ui-table": "~0.4.3",
+        "xlsx": "^0.18.5"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "ums_flows.json",
+            "credentialsFile": "ums_flows_cred.json"
+        }
+    }
+}
