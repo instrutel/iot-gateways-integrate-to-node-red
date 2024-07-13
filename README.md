@@ -1,41 +1,49 @@
 # Utility Monitoring System 
 
-### This project provides a remote monitoring system for multiple devices like 
-### 1) Analog Input  2) Analog Output 3) Digital Input  4) Digital Output With the help of Iot Gateway 
-### Table Of Content 
-* Introduction
-* Features
+### With the help of Iot Gateway this project provides a remote monitoring system for multiple devices like  
+---> 1) Analog Input  <br/>
+---> 2) Analog Output  <br/>
+---> 3) Digital Input  <br />
+---> 4) Digital Output
+
+#### Table Of Content 
+* Description
 * Installation
 * Usage
 * Contributing
 * License
   <br />
 ### Description 
-* Monitor analog and digital devices data and control them remotely.
-* Use Iot Gateway device for efficient communication between devices and the monitoring system with the help of unique topic name.
-* Use of Node-RED's visual flow editor for easy configuration and customization  <br /><br />
+* Use Iot Gateway for efficient communication between connected device through RS485 or Ethernet connection and monitoring them with the help of unique topic name.
+* Use of Node-RED's visual flow editor for easy configuration and customization  <br />
+* Operate all the devices with the help of an easy to use interface of node red dashboard <br/><br/>
 ![image](https://github.com/user-attachments/assets/6d78505d-cb15-46a3-bb73-145a6d86cb82)
 
 ### Installation Guide
 1. **Node.js:** Ensure you have a compatible version of Node.js installed: https://nodejs.org/en
 2. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.            
    npm install -g --unsafe-perm node-red
-3. **Required Nodes:** (If applicable, list specific Node-RED nodes needed)
-   - Install using the Node-RED package manager or manually.
-4. **MYSQL Database:** Ensure you have mysql database installed in your computer system
-5. **clone this repository**
-git clone https://github.com/instrutel/iot-gateways-integrate-to-node-red/tree/main
-# Go into the repository
-cd electron-node-red
-# Install the yarn install tool globally
-sudo npm i -g yarn
-# Install project dependencies
-yarn
+3. **MYSQL Database:** Storing and Retrieving data coming from the devices we need a database so ensure you have a database installed in your computer system here we use MYSql database for download it follow the link https://dev.mysql.com/downloads/installer/
+4. **Clone the repository:**
+   * 1 clone The repo
+   
+         https://github.com/instrutel/iot-gateways-integrate-to-node-red
+   * 2 Go to the iot-gateways-integrate-to-node-red folder
+    
+           cd iot-gateways-integrate-to-node-red
+
+    * 3 Install the node red dependencies
+  
+          npm install
+    * 4 Run
+  
+          node-red
+![image](https://github.com/user-attachments/assets/8963f29f-c56d-41e2-9008-5c756b5b7c4b)
+find---> 13 Jul 10:50:18 - [info] Server now running at http://127.0.0.1:1880/ this line and copy that link and paste in the browser
 ### Usage 
 Node-red :
 Node-RED uses graphical flows and nodes, which have individual components in a flow to essentially create a program. 
 Its a open-source tool
-![image](https://github.com/user-attachments/assets/a647746e-fdd2-47c8-a962-334dc6ede887)
 
 
 for accessing a data from multiple devices using iot gateway 
