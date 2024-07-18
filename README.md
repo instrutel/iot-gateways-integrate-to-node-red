@@ -24,19 +24,18 @@
 2. **Node-RED:** Follow the installation guide for your operating system: https://nodered.org/docs/getting-started/local.            
    npm install -g --unsafe-perm node-red
 3. **MYSQL Database:** Storing and Retrieving data coming from the devices we need a database so ensure you have a database installed in your computer system here we use MYSql database for download it follow the link https://dev.mysql.com/downloads/installer/
-4. **Clone the repository:**
+4. **MYSQL Workbench** A user interface for operating mysql database
+5. **Start the node-red:**
    * 1 clone The repo
    
          https://github.com/instrutel/iot-gateways-integrate-to-node-red
-   * 2 Go to the iot-gateways-integrate-to-node-red folder
-    
-           cd iot-gateways-integrate-to-node-red
+   * 2 Install the node which not installed and showing for installation
 
-    * 3 Install the node red dependencies
-  
-          npm install
-    * 4 Run
-  
+
+    * 3 Run
+   * 1 start the node-red application using command propmpt
+     type node-red in cmd
+     
           node-red
 ![image](https://github.com/user-attachments/assets/8963f29f-c56d-41e2-9008-5c756b5b7c4b)
  * find---> 13 Jul 10:50:18 - [info] Server now running at http://127.0.0.1:1880/ this line and copy that link and paste in the browser you will see the flow structure which as shown in following image
